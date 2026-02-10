@@ -28,16 +28,14 @@
 
 <div class="container mt-4">
 
-  <!-- Header -->
   <h2 class="text-center mb-4">Cards Gallery</h2>
 
-  <!-- Single Row -->
   <div class="row">
 
     <!-- Card 1 -->
     <div class="col-md-4 mb-4">
       <div class="card text-center">
-        <img src="Image1" class="card-img-top" data-toggle="modal" data-target="#lightbox" onclick="openLightbox(this)">
+        <img src="Image1" class="card-img-top lightbox" data-toggle="modal" data-target="#lightboxModal" onclick="openLightbox(this)">
         <div class="card-body">
           <h6>Image One</h6>
           <p>Details about image one.</p>
@@ -48,7 +46,7 @@
     <!-- Card 2 -->
     <div class="col-md-4 mb-4">
       <div class="card text-center">
-        <img src="Image2" class="card-img-top" data-toggle="modal" data-target="#lightbox" onclick="openLightbox(this)">
+        <img src="Image2" class="card-img-top lightbox" data-toggle="modal" data-target="#lightboxModal" onclick="openLightbox(this)">
         <div class="card-body">
           <h6>Image Two</h6>
           <p>Details about image two.</p>
@@ -59,7 +57,7 @@
     <!-- Card 3 -->
     <div class="col-md-4 mb-4">
       <div class="card text-center">
-        <img src="Image3" class="card-img-top" data-toggle="modal" data-target="#lightbox" onclick="openLightbox(this)">
+        <img src="Image3" class="card-img-top lightbox" data-toggle="modal" data-target="#lightboxModal" onclick="openLightbox(this)">
         <div class="card-body">
           <h6>Image Three</h6>
           <p>Details about image three.</p>
@@ -70,7 +68,7 @@
     <!-- Card 4 -->
     <div class="col-md-4 mb-4">
       <div class="card text-center">
-        <img src="Image4" class="card-img-top" data-toggle="modal" data-target="#lightbox" onclick="openLightbox(this)">
+        <img src="Image4" class="card-img-top lightbox" data-toggle="modal" data-target="#lightboxModal" onclick="openLightbox(this)">
         <div class="card-body">
           <h6>Image Four</h6>
           <p>Details about image four.</p>
@@ -81,7 +79,7 @@
     <!-- Card 5 -->
     <div class="col-md-4 mb-4">
       <div class="card text-center">
-        <img src="Image5" class="card-img-top" data-toggle="modal" data-target="#lightbox" onclick="openLightbox(this)">
+        <img src="Image5" class="card-img-top lightbox" data-toggle="modal" data-target="#lightboxModal" onclick="openLightbox(this)">
         <div class="card-body">
           <h6>Image Five</h6>
           <p>Details about image five.</p>
@@ -92,7 +90,7 @@
     <!-- Card 6 -->
     <div class="col-md-4 mb-4">
       <div class="card text-center">
-        <img src="Image6" class="card-img-top" data-toggle="modal" data-target="#lightbox" onclick="openLightbox(this)">
+        <img src="Image6" class="card-img-top lightbox" data-toggle="modal" data-target="#lightboxModal" onclick="openLightbox(this)">
         <div class="card-body">
           <h6>Image Six</h6>
           <p>Details about image six.</p>
@@ -103,8 +101,8 @@
   </div>
 </div>
 
-<!-- Lightbox Modal (NO img tag here!) -->
-<div class="modal fade" id="lightbox" tabindex="-1">
+<!-- Lightbox Modal -->
+<div class="modal fade" id="lightboxModal" tabindex="-1">
   <div class="modal-dialog modal-dialog-centered modal-lg">
     <div class="modal-content">
       <div class="modal-body p-0">
